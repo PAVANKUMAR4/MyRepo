@@ -12,11 +12,11 @@ public class HelloWorld
 		a=10;
 		b=20;
 	}
-	public void add()
+	public int add()
 	{
 		System.out.println("I am from add method");
 		c=a+b;
-		//return c;
+		return c;
 	}
     public static void main(String args[])
 	{
